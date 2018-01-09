@@ -11,9 +11,22 @@ public class SleepyHead {
         
         boolean isWeekday, isVacation;
         
+        int val = JOptionPane.showConfirmDialog(null, "is it a weekday");        
+       
+        if(val == 1) {
+        	JOptionPane.showMessageDialog(null, "ok, go back to sleep");
+        	System.exit(67); }
         
+        if(val == 0) {
+        	JOptionPane.showMessageDialog(null, "WAKE UP LAZY BONES, YOU'RE GOING TO BE LATE FOR SCHOOL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         
+        int value = JOptionPane.showConfirmDialog(null, "is it vacation?");        
         
+        if(value == 0) {
+        	JOptionPane.showMessageDialog(null, "WAKE UP LAZY BONES, YOU'RE GOING TO BE LATE FOR VACATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        	System.exit(67); }
+        if(value == 1) {
+        	JOptionPane.showMessageDialog(null, " THEN STILL WAKE UP LAZY BONES, YOU'RE GOING TO BE LATE FOR SCHOOL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         
         
         
@@ -23,7 +36,7 @@ public class SleepyHead {
          * JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
          * JOptionPane.YES_NO_OPTION);
          */
-    
+   
 
 
         /*
@@ -32,4 +45,4 @@ public class SleepyHead {
          * print â€œsleep inâ€�.
          */
     }
-}
+}}}
