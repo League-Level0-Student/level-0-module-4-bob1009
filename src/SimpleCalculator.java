@@ -4,7 +4,6 @@ import javax.swing.JOptionPane;
 
 public class SimpleCalculator {
 	public static void main(String[] args) {
-
 		// 1. Get 2 numbers from the user and convert them to integer.
 
 		// 2. Customize pop-up to support add/subtract/multiply/divide operations.
