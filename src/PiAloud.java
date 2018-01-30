@@ -19,7 +19,7 @@ public static void main(String[] args) {
 		+ "21339360726024914127372458700660631"
         + "55881748815209209628292540917153643"
         + "67892590360011330530548820466521384...");
-	System.out.println(bob.charAt(0));
+	System.out.println(bob.charAt(3));
 	// 1. Make a main method and make sure your program can run
 
 	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
